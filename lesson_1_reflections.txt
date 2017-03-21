@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+By viewing a diff between two versions of a file it shows the line which has the actual difference
+and it becomes easy.Thus it helps us.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+By having easy access to the entire history of a file we can compare the older versions to easily 
+get any bugs encountered.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do
+ in Git, vs having versions automatically saved, like Google Docs does?
+
+For Git the pros are we can commit at each logical change as we go ahead but the con is that sometime
+we may forget to make the commit at the right time or there may be too much or too less commits.
+Using Google Docs the pro may be that it automatically saves the change. The con is that there may be
+too much saved version files.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+
+Git is used for programming where every change in one file may affect the other so it is important to
+keep every other files saved with it.
+while in Goolge Docs it is not already known that one file may affect other so the independence between the files 
+makes Google Docs treat each file seperately.
+
+How can you use the commands git log and git diff to view the history of files?
+
+We use git log to see recent git commit history with information about them including the ids. We can type "git log" 
+to use this command.
+We use git diff to find out the difference in two versions of code using the IDs of the commits. We type "git diff"
+followed by the two commit IDs to find out the change between two versions.
+
+How might using version control make you more confident to make changes that could break something?
+
+Using version control we can always make changes that could make or build new things and accomplish our task 
+and incase of any bug we can always caomback to the previous state.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Since i am interested in Machine learning and Data science so i'll start using Git for these.
